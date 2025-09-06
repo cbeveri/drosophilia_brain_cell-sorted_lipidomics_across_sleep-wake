@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='504.00pt' height='504.00pt' viewBox='0 0 504.00 504.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw1MDQuMDB8MC4wMHw1MDQuMDA='>
+    <rect x='0.00' y='0.00' width='504.00' height='504.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw1MDQuMDB8MC4wMHw1MDQuMDA=)'>
+<rect x='0.00' y='-0.000000000000057' width='504.00' height='504.00' style='stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;' />
+</g>
+<defs>
+  <clipPath id='cpNDIuNDF8NDk4LjUyfDIzLjE4fDQ3Mi41MA=='>
+    <rect x='42.41' y='23.18' width='456.11' height='449.33' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNDIuNDF8NDk4LjUyfDIzLjE4fDQ3Mi41MA==)'>
+<rect x='42.41' y='23.18' width='456.11' height='449.33' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<line x1='270.47' y1='472.50' x2='270.47' y2='23.18' style='stroke-width: 1.07; stroke-dasharray: 5.69,5.69; stroke-linecap: butt;' />
+</g>
+<g clip-path='url(#cpMC4wMHw1MDQuMDB8MC4wMHw1MDQuMDA=)'>
+<polyline points='42.41,472.50 42.41,23.18 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<text x='37.48' y='353.11' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='10.76px' lengthAdjust='spacingAndGlyphs'>FA</text>
+<text x='37.48' y='148.87' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='19.07px' lengthAdjust='spacingAndGlyphs'>DAG</text>
+<polyline points='39.67,349.96 42.41,349.96 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='39.67,145.72 42.41,145.72 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='42.41,472.50 498.52,472.50 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='42.41,475.24 42.41,472.50 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='156.44,475.24 156.44,472.50 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='270.47,475.24 270.47,472.50 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='384.49,475.24 384.49,472.50 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='498.52,475.24 498.52,472.50 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<text x='42.41' y='483.74' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='24.96px' lengthAdjust='spacingAndGlyphs'>-0.050</text>
+<text x='156.44' y='483.74' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='24.96px' lengthAdjust='spacingAndGlyphs'>-0.025</text>
+<text x='270.47' y='483.74' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='22.03px' lengthAdjust='spacingAndGlyphs'>0.000</text>
+<text x='384.49' y='483.74' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='22.03px' lengthAdjust='spacingAndGlyphs'>0.025</text>
+<text x='498.52' y='483.74' text-anchor='middle' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='22.03px' lengthAdjust='spacingAndGlyphs'>0.050</text>
+<text x='270.47' y='496.20' text-anchor='middle' style='font-size: 11.00px; font-family: "Arial";' textLength='139.13px' lengthAdjust='spacingAndGlyphs'>Fold change, lipids FDR&lt;0.1</text>
+<text x='42.41' y='14.93' style='font-size: 13.20px; font-family: "Arial";' textLength='789.52px' lengthAdjust='spacingAndGlyphs'>Sample Type_ Glia__Sleep Condition_ Deprived__Sex_ male vs Sample Type_ Glia__Sleep Condition_ Waking up__Sex_ maleBlank1</text>
+</g>
+</svg>

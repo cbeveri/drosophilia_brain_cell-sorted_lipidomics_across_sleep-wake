@@ -1,0 +1,78 @@
+﻿Sample Name,Sample Type,Sleep Condition,Sex,ExperiReSt
+NDM-Q,Neuron,Deprived,male,Q
+N4M-Q,Neuron,Going to sleep,male,Q
+N2M-Q,Neuron,Waking up,male,Q
+NDM-P,Neuron,Deprived,male,P
+N4M-P,Neuron,Going to sleep,male,P
+N2M-P,Neuron,Waking up,male,P
+NDM-R,Neuron,Deprived,male,R
+N4M-R,Neuron,Going to sleep,male,R
+N2M-R,Neuron,Waking up,male,R
+NDM-S,Neuron,Deprived,male,S
+N4M-S,Neuron,Going to sleep,male,S
+N2M-S,Neuron,Waking up,male,S
+GDM-Q,Glia,Deprived,male,Q
+G4M-Q,Glia,Going to sleep,male,Q
+G2M-Q,Glia,Waking up,male,Q
+GDM-P,Glia,Deprived,male,P
+G4M-P,Glia,Going to sleep,male,P
+G2M-P,Glia,Waking up,male,P
+GDM-R,Glia,Deprived,male,R
+G4M-R,Glia,Going to sleep,male,R
+G2M-R,Glia,Waking up,male,R
+GDM-S,Glia,Deprived,male,S
+G4M-S,Glia,Going to sleep,male,S
+G2M-S,Glia,Waking up,male,S
+SDM-Q,Supernatant - 60 Brain,Deprived,male,Q
+S4M-Q,Supernatant - 60 Brain,Going to sleep,male,Q
+S2M-Q,Supernatant - 60 Brain,Waking up,male,Q
+SDM-P,Supernatant - 60 Brain,Deprived,male,P
+S4M-P,Supernatant - 60 Brain,Going to sleep,male,P
+S2M-P,Supernatant - 60 Brain,Waking up,male,P
+SDM-R,Supernatant - 60 Brain,Deprived,male,R
+S4M-R,Supernatant - 60 Brain,Going to sleep,male,R
+S2M-R,Supernatant - 60 Brain,Waking up,male,R
+SDM-S,Supernatant - 60 Brain,Deprived,male,S
+S4M-S,Supernatant - 60 Brain,Going to sleep,male,S
+S2M-S,Supernatant - 60 Brain,Waking up,male,S
+IPA,IPA,IPA,IPA,IPA
+Blank_N,Blank_N,Blank_N,Blank_N,Blank_N
+NDF-J,Neuron,Deprived,male,J
+N4F-J,Neuron,Going to sleep,Female,J
+N2F-J,Neuron,Waking up,Female,J
+NDF-L,Neuron,Deprived,Female,L
+N4F-L,Neuron,Going to sleep,Female,L
+N2F-L,Neuron,Waking up,Female,L
+NDF-M,Neuron,Deprived,Female,M
+N4F-M,Neuron,Going to sleep,Female,M
+N2F-M,Neuron,Waking up,Female,M
+NDF-N,Neuron,Deprived,Female,N
+N4F-N,Neuron,Going to sleep,Female,N
+N2F-N,Neuron,Waking up,Female,N
+GDF-J,Glia,Deprived,Female,J
+G4F-J,Glia,Going to sleep,Female,J
+G2F-J,Glia,Waking up,Female,J
+GDF-L,Glia,Deprived,Female,L
+G4F-L,Glia,Going to sleep,Female,L
+G2F-L,Glia,Waking up,Female,L
+GDF-M,Glia,Deprived,Female,M
+G4F-M,Glia,Going to sleep,Female,M
+G2F-M,Glia,Waking up,Female,M
+GDF-N,Glia,Deprived,Female,N
+G4F-N,Glia,Going to sleep,Female,N
+G2F-N,Glia,Waking up,Female,N
+SDF-J,Supernatant - 60 Brain,Deprived,Female,J
+S4F-J,Supernatant - 60 Brain,Going to sleep,Female,J
+S2F-J,Supernatant - 60 Brain,Waking up,Female,J
+SDF-L,Supernatant - 60 Brain,Deprived,Female,L
+S4F-L,Supernatant - 60 Brain,Going to sleep,Female,L
+S2F-L,Supernatant - 60 Brain,Waking up,Female,L
+SDF-M,Supernatant - 60 Brain,Deprived,Female,M
+S4F-M,Supernatant - 60 Brain,Going to sleep,Female,M
+S2F-M,Supernatant - 60 Brain,Waking up,Female,M
+SDF-N,Supernatant - 60 Brain,Deprived,Female,N
+S4F-N,Supernatant - 60 Brain,Going to sleep,Female,N
+S2F-N,Supernatant - 60 Brain,Waking up,Female,N
+IPA,IPA,IPA,IPA,IPA
+Blank1,Blank1,Blank1,Blank1,Blank1
+Blank2,Blank2,Blank2,Blank2,Blank2

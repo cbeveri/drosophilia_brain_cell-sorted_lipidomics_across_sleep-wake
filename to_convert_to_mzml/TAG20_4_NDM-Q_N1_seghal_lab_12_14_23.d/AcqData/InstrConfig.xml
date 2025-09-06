@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InstrConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="2.0">
+  <instrDevice>
+    <VoyModuleList>
+      <VoyModule>
+        <DevID>MSQQQ_1</DevID>
+        <DevName>MSQQQ</DevName>
+        <DisplayName>QQQ</DisplayName>
+        <OrdinalNumber>1</OrdinalNumber>
+        <ModelNumber>G6495C</ModelNumber>
+        <DisplayModelNumber>G6495C</DisplayModelNumber>
+        <SerialNumber>SG1524G003</SerialNumber>
+        <FirmwareVersion>A.00.08.112</FirmwareVersion>
+        <ConfigXML>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;QQQConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" schemaVersion="1.0.2"&gt;&lt;DisplayName&gt;MS QQQ&lt;/DisplayName&gt;&lt;SerialNumber&gt;DE91608998&lt;/SerialNumber&gt;&lt;ModuleType&gt;443&lt;/ModuleType&gt;&lt;ModuleDisplayType&gt;443&lt;/ModuleDisplayType&gt;&lt;/QQQConfig&gt;</ConfigXML>
+        <ClusterDeviceID />
+        <isRCDevice>false</isRCDevice>
+        <ClusterParentID />
+        <ParentCombinedContainerAutoConfig />
+        <ParentCombinedContainerDevID />
+        <DriverVersion>10.0.142</DriverVersion>
+      </VoyModule>
+      <VoyModule>
+        <DevID>HiP-ALS_1</DevID>
+        <DevName>HiP-ALS</DevName>
+        <DisplayName>Multisampler</DisplayName>
+        <OrdinalNumber>1</OrdinalNumber>
+        <ModelNumber>G7167B</ModelNumber>
+        <DisplayModelNumber>G7167B</DisplayModelNumber>
+        <SerialNumber>DEBAS02838</SerialNumber>
+        <FirmwareVersion>D.07.32 [0001]</FirmwareVersion>
+        <ConfigXML>&lt;MultiSamplerConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsdName="MultiSamplerConfig.xsd" schemaVersion="1.0.0" schemaSI="3"&gt;&lt;DisplayName&gt;Multisampler&lt;/DisplayName&gt;&lt;SerialNumber&gt;DEBAS02838&lt;/SerialNumber&gt;&lt;ModuleType&gt;G7167B&lt;/ModuleType&gt;&lt;ModuleDisplayType&gt;G7167B&lt;/ModuleDisplayType&gt;&lt;ConnectionInfo&gt;&lt;ConnectionType&gt;ConnectionType_IPAddress&lt;/ConnectionType&gt;&lt;IPAddress&gt;192.168.254.11&lt;/IPAddress&gt;&lt;/ConnectionInfo&gt;&lt;FirmwareRevision&gt;D.07.32 [0001]&lt;/FirmwareRevision&gt;&lt;IsThermostatInstalled&gt;true&lt;/IsThermostatInstalled&gt;&lt;IsMultiWashInstalled&gt;true&lt;/IsMultiWashInstalled&gt;&lt;Hotel&gt;&lt;Drawers&gt;&lt;Drawer&gt;&lt;Height&gt;2&lt;/Height&gt;&lt;LogicalFloorLevel&gt;1&lt;/LogicalFloorLevel&gt;&lt;PhysicalDrawerLevel&gt;1&lt;/PhysicalDrawerLevel&gt;&lt;Type&gt;MultiSamplerDrawerTypeEnum_Regular&lt;/Type&gt;&lt;/Drawer&gt;&lt;Drawer&gt;&lt;Height&gt;2&lt;/Height&gt;&lt;LogicalFloorLevel&gt;2&lt;/LogicalFloorLevel&gt;&lt;PhysicalDrawerLevel&gt;3&lt;/PhysicalDrawerLevel&gt;&lt;Type&gt;MultiSamplerDrawerTypeEnum_Regular&lt;/Type&gt;&lt;/Drawer&gt;&lt;Drawer&gt;&lt;Height&gt;2&lt;/Height&gt;&lt;LogicalFloorLevel&gt;3&lt;/LogicalFloorLevel&gt;&lt;PhysicalDrawerLevel&gt;5&lt;/PhysicalDrawerLevel&gt;&lt;Type&gt;MultiSamplerDrawerTypeEnum_Regular&lt;/Type&gt;&lt;/Drawer&gt;&lt;Drawer&gt;&lt;Height&gt;2&lt;/Height&gt;&lt;LogicalFloorLevel&gt;4&lt;/LogicalFloorLevel&gt;&lt;PhysicalDrawerLevel&gt;7&lt;/PhysicalDrawerLevel&gt;&lt;Type&gt;MultiSamplerDrawerTypeEnum_Regular&lt;/Type&gt;&lt;/Drawer&gt;&lt;/Drawers&gt;&lt;/Hotel&gt;&lt;IsDualNeedleInstalled&gt;false&lt;/IsDualNeedleInstalled&gt;&lt;NeedleRight&gt;&lt;Syringe&gt;&lt;ID&gt;G4267-60042&lt;/ID&gt;&lt;DisplayName&gt;40 µL Analytical Head&lt;/DisplayName&gt;&lt;InjectionVolume&gt;40&lt;/InjectionVolume&gt;&lt;Diameter&gt;2&lt;/Diameter&gt;&lt;/Syringe&gt;&lt;SeatCapillary&gt;&lt;ID&gt;G4267-87012&lt;/ID&gt;&lt;DisplayName&gt;Seat assembly 0.12 mm 1290 Infinity LC&lt;/DisplayName&gt;&lt;InjectionVolume&gt;0&lt;/InjectionVolume&gt;&lt;PhysicalVolume&gt;1.5&lt;/PhysicalVolume&gt;&lt;/SeatCapillary&gt;&lt;LoopCapillary&gt;&lt;ID&gt;G4267-60300&lt;/ID&gt;&lt;DisplayName&gt;Sample Loop-Flex 20 µL right&lt;/DisplayName&gt;&lt;InjectionVolume&gt;20&lt;/InjectionVolume&gt;&lt;PhysicalVolume&gt;33&lt;/PhysicalVolume&gt;&lt;/LoopCapillary&gt;&lt;/NeedleRight&gt;&lt;RefVialArray&gt;&lt;ID&gt;G4267-40071&lt;/ID&gt;&lt;DisplayName&gt;Reference vial rack (5)&lt;/DisplayName&gt;&lt;ContainerXml&gt;&amp;lt;?xml version="1.0" encoding="utf-8"?&amp;gt;&amp;lt;SampleContainer xsi:noNamespaceSchemaLocation="SampleContainer.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.0.0.0"&amp;gt;	&amp;lt;Common&amp;gt;		&amp;lt;Identifier&amp;gt;{661CF8C4-1617-187F-1D1C-4CF71C918904}&amp;lt;/Identifier&amp;gt;		&amp;lt;DisplayName&amp;gt;G4267-40071 - Reference vial rack (5)&amp;lt;/DisplayName&amp;gt;		&amp;lt;NumLocation&amp;gt;5&amp;lt;/NumLocation&amp;gt;		&amp;lt;ReadOnly&amp;gt;true&amp;lt;/ReadOnly&amp;gt;		&amp;lt;Details/&amp;gt;		&amp;lt;IsPlate&amp;gt;false&amp;lt;/IsPlate&amp;gt;	&amp;lt;/Common&amp;gt;	&amp;lt;Geometry&amp;gt;		&amp;lt;CartesianContainer&amp;gt;			&amp;lt;Units&amp;gt;				&amp;lt;Unit&amp;gt;					&amp;lt;Identifier&amp;gt;1&amp;lt;/Identifier&amp;gt;					&amp;lt;RowOffset&amp;gt;12.39&amp;lt;/RowOffset&amp;gt;					&amp;lt;ColumnOffset&amp;gt;11.85&amp;lt;/ColumnOffset&amp;gt;					&amp;lt;RowDistance&amp;gt;16.98&amp;lt;/RowDistance&amp;gt;					&amp;lt;ColumnDistance&amp;gt;16.98&amp;lt;/ColumnDistance&amp;gt;					&amp;lt;ColumnShift&amp;gt;0&amp;lt;/ColumnShift&amp;gt;					&amp;lt;NumRows&amp;gt;5&amp;lt;/NumRows&amp;gt;					&amp;lt;NumCols&amp;gt;1&amp;lt;/NumCols&amp;gt;					&amp;lt;XWellDiameter&amp;gt;9.2&amp;lt;/XWellDiameter&amp;gt;					&amp;lt;YWellDiameter&amp;gt;9.2&amp;lt;/YWellDiameter&amp;gt;					&amp;lt;WellBottomSizeFactor&amp;gt;1&amp;lt;/WellBottomSizeFactor&amp;gt;					&amp;lt;WellIsSquare&amp;gt;false&amp;lt;/WellIsSquare&amp;gt;					&amp;lt;WellHeight&amp;gt;34.0&amp;lt;/WellHeight&amp;gt;					&amp;lt;WellDepth&amp;gt;29&amp;lt;/WellDepth&amp;gt;					&amp;lt;WellVolume&amp;gt;1500.0&amp;lt;/WellVolume&amp;gt;					&amp;lt;IsSealed&amp;gt;false&amp;lt;/IsSealed&amp;gt;					&amp;lt;AddressingBlockID&amp;gt;1&amp;lt;/AddressingBlockID&amp;gt;				&amp;lt;/Unit&amp;gt;			&amp;lt;/Units&amp;gt;			&amp;lt;XSize&amp;gt;22.35&amp;lt;/XSize&amp;gt;			&amp;lt;YSize&amp;gt;90.0&amp;lt;/YSize&amp;gt;		&amp;lt;/CartesianContainer&amp;gt;	&amp;lt;/Geometry&amp;gt;	&amp;lt;Addressing&amp;gt;		&amp;lt;AddressBlocks&amp;gt;			&amp;lt;AddressBlock&amp;gt;				&amp;lt;ID&amp;gt;1&amp;lt;/ID&amp;gt;				&amp;lt;NumLocations&amp;gt;5&amp;lt;/NumLocations&amp;gt;				&amp;lt;LinearAddressing&amp;gt;					&amp;lt;Start&amp;gt;1&amp;lt;/Start&amp;gt;					&amp;lt;DistributionPattern&amp;gt;DistributionPattern_Column_Linear&amp;lt;/DistributionPattern&amp;gt;					&amp;lt;Origin11&amp;gt;Origin11_LeftFrontEdge&amp;lt;/Origin11&amp;gt;				&amp;lt;/LinearAddressing&amp;gt;			&amp;lt;/AddressBlock&amp;gt;		&amp;lt;/AddressBlocks&amp;gt;	&amp;lt;/Addressing&amp;gt;&amp;lt;/SampleContainer&amp;gt;&lt;/ContainerXml&gt;&lt;/RefVialArray&gt;&lt;BypassCapillary&gt;None&lt;/BypassCapillary&gt;&lt;ThermostatControlledBy&gt;MultiSamplerThermostatControlledBy_Control&lt;/ThermostatControlledBy&gt;&lt;InstalledThermostatType&gt;InstalledThermostatType_Thermostat&lt;/InstalledThermostatType&gt;&lt;ThermostatConfig&gt;&lt;Type&gt;G7167-60101&lt;/Type&gt;&lt;SerialNumber&gt;DEBBP25971&lt;/SerialNumber&gt;&lt;Revision&gt;0&lt;/Revision&gt;&lt;/ThermostatConfig&gt;&lt;/MultiSamplerConfig&gt;</ConfigXML>
+        <ClusterDeviceID>0</ClusterDeviceID>
+        <isRCDevice>true</isRCDevice>
+        <ClusterParentID>AGILENT_1100_1200_1</ClusterParentID>
+        <ParentCombinedContainerAutoConfig />
+        <ParentCombinedContainerDevID />
+      </VoyModule>
+      <VoyModule>
+        <DevID>BinPump_1</DevID>
+        <DevName>BinPump</DevName>
+        <DisplayName>Binary Pump</DisplayName>
+        <OrdinalNumber>1</OrdinalNumber>
+        <ModelNumber>G7120A</ModelNumber>
+        <DisplayModelNumber>G7120A</DisplayModelNumber>
+        <SerialNumber>DEBAY03154</SerialNumber>
+        <FirmwareVersion>B.07.28 [0006]</FirmwareVersion>
+        <ConfigXML>&lt;PumpConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" schemaVersion="1.0.3" schemaSI="0"&gt;&lt;DisplayName&gt;Binary Pump&lt;/DisplayName&gt;&lt;SerialNumber&gt;DEBAY03154&lt;/SerialNumber&gt;&lt;ModuleType&gt;G7120A&lt;/ModuleType&gt;&lt;ModuleDisplayType&gt;G7120A&lt;/ModuleDisplayType&gt;&lt;ConnectionInfo&gt;&lt;ConnectionType&gt;ConnectionType_IPAddress&lt;/ConnectionType&gt;&lt;IPAddress&gt;192.168.254.11&lt;/IPAddress&gt;&lt;/ConnectionInfo&gt;&lt;LANConfig&gt;IsCAP&lt;/LANConfig&gt;&lt;FirmwareRevision&gt;B.07.28 [0006]&lt;/FirmwareRevision&gt;&lt;IsExternalContactsBoardInstalled&gt;false&lt;/IsExternalContactsBoardInstalled&gt;&lt;IsSealWashInstalled&gt;false&lt;/IsSealWashInstalled&gt;&lt;IsSolventSelectionValveInstalled&gt;true&lt;/IsSolventSelectionValveInstalled&gt;&lt;IsFlowSensorInstalled&gt;false&lt;/IsFlowSensorInstalled&gt;&lt;FlowSensorVersion&gt;FS1_20microl&lt;/FlowSensorVersion&gt;&lt;PressureUnit&gt;Unit_Bar&lt;/PressureUnit&gt;&lt;IsEmulationModeEnabled&gt;false&lt;/IsEmulationModeEnabled&gt;&lt;InstalledMixer&gt;&lt;MixerType&gt;StdJetWeaver&lt;/MixerType&gt;&lt;/InstalledMixer&gt;&lt;/PumpConfig&gt;</ConfigXML>
+        <ClusterDeviceID>1</ClusterDeviceID>
+        <isRCDevice>true</isRCDevice>
+        <ClusterParentID>AGILENT_1100_1200_1</ClusterParentID>
+        <ParentCombinedContainerAutoConfig />
+        <ParentCombinedContainerDevID />
+      </VoyModule>
+      <VoyModule>
+        <DevID>TCC_1</DevID>
+        <DevName>TCC</DevName>
+        <DisplayName>Column Comp.</DisplayName>
+        <OrdinalNumber>1</OrdinalNumber>
+        <ModelNumber>G7116B</ModelNumber>
+        <DisplayModelNumber>G7116B</DisplayModelNumber>
+        <SerialNumber>DEBA402450</SerialNumber>
+        <FirmwareVersion>B.07.28 [0006]</FirmwareVersion>
+        <ConfigXML>&lt;ColumnCompConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsdName="SamplerConfig.xsd" schemaVersion="1.0.2" schemaSI="3"&gt;&lt;DisplayName&gt;Column Comp.&lt;/DisplayName&gt;&lt;SerialNumber&gt;DEBA402450&lt;/SerialNumber&gt;&lt;ModuleType&gt;G7116B&lt;/ModuleType&gt;&lt;ModuleDisplayType&gt;G7116B&lt;/ModuleDisplayType&gt;&lt;ConnectionInfo&gt;&lt;ConnectionType&gt;ConnectionType_IPAddress&lt;/ConnectionType&gt;&lt;IPAddress&gt;192.168.254.11&lt;/IPAddress&gt;&lt;/ConnectionInfo&gt;&lt;FirmwareRevision&gt;B.07.28 [0006]&lt;/FirmwareRevision&gt;&lt;FirmwareRevisionOfHostedModule&gt;C.07.21 [0001]&lt;/FirmwareRevisionOfHostedModule&gt;&lt;IsColumnSwitchingValveInstalled&gt;true&lt;/IsColumnSwitchingValveInstalled&gt;&lt;ColumnValveVersion&gt;Item6Port2Positions1300Bar&lt;/ColumnValveVersion&gt;&lt;RealHeadId&gt;5067-4241&lt;/RealHeadId&gt;&lt;RealMaxPressure&gt;1300&lt;/RealMaxPressure&gt;&lt;TagReaderLeftInstalled&gt;false&lt;/TagReaderLeftInstalled&gt;&lt;TagReaderRightInstalled&gt;false&lt;/TagReaderRightInstalled&gt;&lt;PlumbingTable&gt;&lt;PlumbingTableType&gt;&lt;PlumbingTableRow&gt;&lt;PositionIndex&gt;0&lt;/PositionIndex&gt;&lt;ValvePosition&gt;0&lt;/ValvePosition&gt;&lt;ColorCode&gt;0&lt;/ColorCode&gt;&lt;LocationInColumnComp&gt;None&lt;/LocationInColumnComp&gt;&lt;/PlumbingTableRow&gt;&lt;PlumbingTableRow&gt;&lt;PositionIndex&gt;1&lt;/PositionIndex&gt;&lt;ValvePosition&gt;1&lt;/ValvePosition&gt;&lt;ColorCode&gt;0&lt;/ColorCode&gt;&lt;LocationInColumnComp&gt;None&lt;/LocationInColumnComp&gt;&lt;/PlumbingTableRow&gt;&lt;/PlumbingTableType&gt;&lt;/PlumbingTable&gt;&lt;/ColumnCompConfig&gt;</ConfigXML>
+        <ClusterDeviceID>2</ClusterDeviceID>
+        <isRCDevice>true</isRCDevice>
+        <ClusterParentID>AGILENT_1100_1200_1</ClusterParentID>
+        <ParentCombinedContainerAutoConfig />
+        <ParentCombinedContainerDevID />
+      </VoyModule>
+    </VoyModuleList>
+  </instrDevice>
+  <instrumentInfo>
+    <DevConfigs>
+      <VoyInstrDevice>
+        <DevID>MSQQQ_1</DevID>
+        <DevName>MSQQQ</DevName>
+        <TypeID>443</TypeID>
+        <Configured>true</Configured>
+        <ConnectionInfo>192.168.254.12</ConnectionInfo>
+        <ConnectionMode>TCPIP</ConnectionMode>
+        <OrdinalNumber>1</OrdinalNumber>
+        <isClusterController>false</isClusterController>
+        <StreamId>1</StreamId>
+        <StreamName>LC 1</StreamName>
+        <isAPGConnected>false</isAPGConnected>
+        <IsDefaultStream>true</IsDefaultStream>
+      </VoyInstrDevice>
+      <VoyInstrDevice>
+        <DevID>AGILENT_1100_1200_1</DevID>
+        <DevName>AGILENT_1100_1200</DevName>
+        <TypeID>407</TypeID>
+        <Configured>true</Configured>
+        <ConnectionInfo>192.168.254.11</ConnectionInfo>
+        <ConnectionMode>TCPIP</ConnectionMode>
+        <OrdinalNumber>1</OrdinalNumber>
+        <isClusterController>true</isClusterController>
+        <StreamId>1</StreamId>
+        <StreamName>LC 1</StreamName>
+        <isAPGConnected>false</isAPGConnected>
+        <IsDefaultStream>true</IsDefaultStream>
+      </VoyInstrDevice>
+    </DevConfigs>
+    <IsAPGSync>true</IsAPGSync>
+    <isVirtual>false</isVirtual>
+    <ConfiguredBy>DESKTOP-018N0GO\Purdue</ConfiguredBy>
+    <ConfiguredTime>2023-10-24T11:52:26.0766540-04:00</ConfiguredTime>
+    <InstrName>Instrument 1</InstrName>
+    <InstrID>LCMS</InstrID>
+    <StreamSelectionValve />
+  </instrumentInfo>
+</InstrConfig>

@@ -1,0 +1,127 @@
+<PumpMethod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ModuleType="G7120A" schemaVersion="1.0.5" schemaSI="2" ModuleOptions="">
+  <ConfigurationXml>&lt;PumpConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" schemaVersion="1.0.3" schemaSI="0"&gt;&lt;DisplayName&gt;Binary Pump&lt;/DisplayName&gt;&lt;SerialNumber&gt;DEBAY03154&lt;/SerialNumber&gt;&lt;ModuleType&gt;G7120A&lt;/ModuleType&gt;&lt;ModuleDisplayType&gt;G7120A&lt;/ModuleDisplayType&gt;&lt;ConnectionInfo&gt;&lt;ConnectionType&gt;ConnectionType_IPAddress&lt;/ConnectionType&gt;&lt;IPAddress&gt;192.168.254.11&lt;/IPAddress&gt;&lt;/ConnectionInfo&gt;&lt;LANConfig&gt;IsCAP&lt;/LANConfig&gt;&lt;FirmwareRevision&gt;B.07.28 [0006]&lt;/FirmwareRevision&gt;&lt;IsExternalContactsBoardInstalled&gt;false&lt;/IsExternalContactsBoardInstalled&gt;&lt;IsSealWashInstalled&gt;false&lt;/IsSealWashInstalled&gt;&lt;IsSolventSelectionValveInstalled&gt;true&lt;/IsSolventSelectionValveInstalled&gt;&lt;IsFlowSensorInstalled&gt;false&lt;/IsFlowSensorInstalled&gt;&lt;FlowSensorVersion&gt;FS1_20microl&lt;/FlowSensorVersion&gt;&lt;PressureUnit&gt;Unit_Bar&lt;/PressureUnit&gt;&lt;IsEmulationModeEnabled&gt;false&lt;/IsEmulationModeEnabled&gt;&lt;InstalledMixer&gt;&lt;MixerType&gt;StdJetWeaver&lt;/MixerType&gt;&lt;/InstalledMixer&gt;&lt;/PumpConfig&gt;</ConfigurationXml>
+  <Timetable />
+  <StopTime>
+    <StopTimeMode>StopTime_Set</StopTimeMode>
+    <StopTimeValue>2</StopTimeValue>
+  </StopTime>
+  <PostTime>
+    <PostTimeMode>PostTime_Off</PostTimeMode>
+  </PostTime>
+  <Flow>0.1</Flow>
+  <UseSolventTypes>false</UseSolventTypes>
+  <StrokeMode>Synchronized</StrokeMode>
+  <StrokeA>
+    <AutomaticStrokeCalculation>true</AutomaticStrokeCalculation>
+  </StrokeA>
+  <CompressA>
+    <CompressibilityMode>CompressibilityValueSet</CompressibilityMode>
+    <CompressibilityValueSet>50</CompressibilityValueSet>
+  </CompressA>
+  <CompressB>
+    <CompressibilityMode>CompressibilityValueSet</CompressibilityMode>
+    <CompressibilityValueSet>115</CompressibilityValueSet>
+  </CompressB>
+  <SolventComposition>
+    <SolventElement>
+      <Channel>Channel_A</Channel>
+      <Channel1UserName />
+      <Channel2UserName />
+      <SelectedSolventChannel>Channel1</SelectedSolventChannel>
+      <Used>true</Used>
+      <Percentage>100</Percentage>
+      <Channel1ExtendedSolventType>
+        <Mode>Solventtype</Mode>
+        <SolventDescription>
+          <Definition>
+            <Name>Isopropanol V.03</Name>
+            <IsPure>true</IsPure>
+            <CRC>-1684783243</CRC>
+            <SolventStripes>0.0,"t10,48.1766t100,47.2009t200,46.1651t300,45.1801t400,44.2459t500,43.3625t600,42.5298t700,41.748t800,41.0169t900,40.3367t1000,39.7072t1100,39.1285t1200,38.6005"</SolventStripes>
+            <SolventStripes>10.0,"t10,43.1501t100,42.6123t200,42.0224t300,41.4407t400,40.8671t500,40.3017t600,39.7444t700,39.1953t800,38.6543t900,38.1215t1000,37.5968t1100,37.0802t1200,36.5718"</SolventStripes>
+            <SolventStripes>20.0,"t10,42.5948t100,41.9096t200,41.1766t300,40.4734t400,39.8t500,39.1564t600,38.5427t700,37.9588t800,37.4046t900,36.8804t1000,36.3859t1100,35.9212t1200,35.4864"</SolventStripes>
+            <SolventStripes>30.0,"t10,46.4141t100,45.3718t200,44.2769t300,43.2485t400,42.2867t500,41.3916t600,40.5629t700,39.8009t800,39.1054t900,38.4765t1000,37.9142t1100,37.4185t1200,36.9893"</SolventStripes>
+            <SolventStripes>40.0,"t10,52.8671t100,51.3908t200,49.8459t300,48.4016t400,47.0577t500,45.8144t600,44.6716t700,43.6292t800,42.6874t900,41.8461t1000,41.1053t1100,40.4651t1200,39.9253"</SolventStripes>
+            <SolventStripes>50.0,"t10,59.0465t100,57.2586t200,55.3924t300,53.6529t400,52.0399t500,50.5536t600,49.1938t700,47.9608t800,46.8543t900,45.8744t1000,45.0212t1100,44.2946t1200,43.6946"</SolventStripes>
+            <SolventStripes>60.0,"t10,66.8441t100,64.6419t200,62.3395t300,60.1893t400,58.1911t500,56.3451t600,54.6512t700,53.1094t800,51.7197t900,50.4822t1000,49.3967t1100,48.4633t1200,47.6821"</SolventStripes>
+            <SolventStripes>70.0,"t10,75.4567t100,72.8397t200,70.1005t300,67.5386t400,65.1541t500,62.9469t600,60.9171t700,59.0647t800,57.3897t900,55.892t1000,54.5717t1100,53.4287t1200,52.4631"</SolventStripes>
+            <SolventStripes>80.0,"t10,87.2251t100,83.7714t200,80.1742t300,76.8299t400,73.7387t500,70.9005t600,68.3152t700,65.9829t800,63.9036t900,62.0773t1000,60.5039t1100,59.1836t1200,58.1162"</SolventStripes>
+            <SolventStripes>85.0,"t10,94.2614t100,90.2233t200,86.0378t300,82.1695t400,78.6183t500,75.3844t600,72.4676t700,69.868t800,67.5856t900,65.6204t1000,63.9723t1100,62.6414t1200,61.6277"</SolventStripes>
+            <SolventStripes>90.0,"t10,101.4477t100,96.8524t200,92.1025t300,87.7271t400,83.7264t500,80.1002t600,76.8487t700,73.9717t800,71.4694t900,69.3416t1000,67.5885t1100,66.21t1200,65.206"</SolventStripes>
+            <SolventStripes>100.0,"t10,122.0011t100,115.4239t200,108.6835t300,102.5406t400,96.9953t500,92.0476t600,87.6973t700,83.9446t800,80.7895t900,78.2319t1000,76.2718t1100,74.9092t1200,74.1442"</SolventStripes>
+          </Definition>
+          <Percent>100</Percent>
+        </SolventDescription>
+      </Channel1ExtendedSolventType>
+      <Channel2ExtendedSolventType>
+        <Mode>Solventtype</Mode>
+        <SolventDescription>
+          <Definition>
+            <Name>Water V.03</Name>
+            <IsPure>true</IsPure>
+            <CRC>-842211227</CRC>
+            <SolventStripes>0.0,"t10,48.6314t100,47.652t200,46.6104t300,45.6179t400,44.6746t500,43.7805t600,42.9355t700,42.1396t800,41.3929t900,40.6953t1000,40.0469t1100,39.4476t1200,38.8975"</SolventStripes>
+          </Definition>
+          <Percent>100</Percent>
+        </SolventDescription>
+      </Channel2ExtendedSolventType>
+    </SolventElement>
+    <SolventElement>
+      <Channel>Channel_B</Channel>
+      <Channel1UserName />
+      <Channel2UserName />
+      <SelectedSolventChannel>Channel1</SelectedSolventChannel>
+      <Used>false</Used>
+      <Percentage>0</Percentage>
+      <Channel1ExtendedSolventType>
+        <Mode>Solventtype</Mode>
+        <SolventDescription>
+          <Definition>
+            <Name>Acetonitrile V.03</Name>
+            <IsPure>true</IsPure>
+            <CRC>213890</CRC>
+            <SolventStripes>0.0,"t10,48.6314t100,47.652t200,46.6104t300,45.6179t400,44.6746t500,43.7805t600,42.9355t700,42.1396t800,41.3929t900,40.6953t1000,40.0469t1100,39.4476t1200,38.8975"</SolventStripes>
+            <SolventStripes>10.0,"t10,46.2002t100,45.4426t200,44.6294t300,43.8463t400,43.0931t500,42.37t600,41.677t700,41.0139t800,40.381t900,39.778t1000,39.2051t1100,38.6623t1200,38.1495"</SolventStripes>
+            <SolventStripes>20.0,"t10,48.1224t100,47.1707t200,46.1654t300,45.2151t400,44.3196t500,43.4791t600,42.6934t700,41.9627t800,41.2869t900,40.666t1000,40.1t1100,39.589t1200,39.1328"</SolventStripes>
+            <SolventStripes>30.0,"t10,52.1359t100,50.9365t200,49.6729t300,48.482t400,47.3638t500,46.3182t600,45.3454t700,44.4452t800,43.6177t900,42.8629t1000,42.1808t1100,41.5714t1200,41.0347"</SolventStripes>
+            <SolventStripes>40.0,"t10,56.3616t100,55.0724t200,53.7082t300,52.4159t400,51.1954t500,50.0467t600,48.9699t700,47.9649t800,47.0318t900,46.1705t1000,45.381t1100,44.6634t1200,44.0177"</SolventStripes>
+            <SolventStripes>50.0,"t10,62.5574t100,60.9971t200,59.3461t300,57.7819t400,56.3046t500,54.9142t600,53.6107t700,52.3941t800,51.2644t900,50.2216t1000,49.2656t1100,48.3966t1200,47.6144"</SolventStripes>
+            <SolventStripes>60.0,"t10,69.7861t100,67.8212t200,65.7539t300,63.8086t400,61.9853t500,60.284t600,58.7046t700,57.2473t800,55.912t900,54.6987t1000,53.6074t1100,52.638t1200,51.7907"</SolventStripes>
+            <SolventStripes>70.0,"t10,78.6884t100,76.2043t200,73.6022t300,71.1664t400,68.897t500,66.794t600,64.8574t700,63.0871t800,61.4832t900,60.0457t1000,58.7745t1100,57.6697t1200,56.7313"</SolventStripes>
+            <SolventStripes>80.0,"t10,88.8829t100,85.9t200,82.769t300,79.8308t400,77.0856t500,74.5333t600,72.1738t700,70.0073t800,68.0336t900,66.2529t1000,64.665t1100,63.2701t1200,62.068"</SolventStripes>
+            <SolventStripes>90.0,"t10,101.5311t100,97.8406t200,93.9826t300,90.38t400,87.0328t500,83.9409t600,81.1044t700,78.5233t800,76.1976t900,74.1272t1000,72.3122t1100,70.7526t1200,69.4484"</SolventStripes>
+            <SolventStripes>100.0,"t10,119.4267t100,114.7299t200,109.8105t300,105.2063t400,100.9172t500,96.9432t600,93.2843t700,89.9405t800,86.9118t900,84.1983t1000,81.7998t1100,79.7165t1200,77.9483"</SolventStripes>
+          </Definition>
+          <Percent>100</Percent>
+        </SolventDescription>
+      </Channel1ExtendedSolventType>
+      <Channel2ExtendedSolventType>
+        <Mode>Solventtype</Mode>
+        <SolventDescription>
+          <Definition>
+            <Name>Acetonitrile V.03</Name>
+            <IsPure>true</IsPure>
+            <CRC>213890</CRC>
+            <SolventStripes>0.0,"t10,48.6314t100,47.652t200,46.6104t300,45.6179t400,44.6746t500,43.7805t600,42.9355t700,42.1396t800,41.3929t900,40.6953t1000,40.0469t1100,39.4476t1200,38.8975"</SolventStripes>
+            <SolventStripes>10.0,"t10,46.2002t100,45.4426t200,44.6294t300,43.8463t400,43.0931t500,42.37t600,41.677t700,41.0139t800,40.381t900,39.778t1000,39.2051t1100,38.6623t1200,38.1495"</SolventStripes>
+            <SolventStripes>20.0,"t10,48.1224t100,47.1707t200,46.1654t300,45.2151t400,44.3196t500,43.4791t600,42.6934t700,41.9627t800,41.2869t900,40.666t1000,40.1t1100,39.589t1200,39.1328"</SolventStripes>
+            <SolventStripes>30.0,"t10,52.1359t100,50.9365t200,49.6729t300,48.482t400,47.3638t500,46.3182t600,45.3454t700,44.4452t800,43.6177t900,42.8629t1000,42.1808t1100,41.5714t1200,41.0347"</SolventStripes>
+            <SolventStripes>40.0,"t10,56.3616t100,55.0724t200,53.7082t300,52.4159t400,51.1954t500,50.0467t600,48.9699t700,47.9649t800,47.0318t900,46.1705t1000,45.381t1100,44.6634t1200,44.0177"</SolventStripes>
+            <SolventStripes>50.0,"t10,62.5574t100,60.9971t200,59.3461t300,57.7819t400,56.3046t500,54.9142t600,53.6107t700,52.3941t800,51.2644t900,50.2216t1000,49.2656t1100,48.3966t1200,47.6144"</SolventStripes>
+            <SolventStripes>60.0,"t10,69.7861t100,67.8212t200,65.7539t300,63.8086t400,61.9853t500,60.284t600,58.7046t700,57.2473t800,55.912t900,54.6987t1000,53.6074t1100,52.638t1200,51.7907"</SolventStripes>
+            <SolventStripes>70.0,"t10,78.6884t100,76.2043t200,73.6022t300,71.1664t400,68.897t500,66.794t600,64.8574t700,63.0871t800,61.4832t900,60.0457t1000,58.7745t1100,57.6697t1200,56.7313"</SolventStripes>
+            <SolventStripes>80.0,"t10,88.8829t100,85.9t200,82.769t300,79.8308t400,77.0856t500,74.5333t600,72.1738t700,70.0073t800,68.0336t900,66.2529t1000,64.665t1100,63.2701t1200,62.068"</SolventStripes>
+            <SolventStripes>90.0,"t10,101.5311t100,97.8406t200,93.9826t300,90.38t400,87.0328t500,83.9409t600,81.1044t700,78.5233t800,76.1976t900,74.1272t1000,72.3122t1100,70.7526t1200,69.4484"</SolventStripes>
+            <SolventStripes>100.0,"t10,119.4267t100,114.7299t200,109.8105t300,105.2063t400,100.9172t500,96.9432t600,93.2843t700,89.9405t800,86.9118t900,84.1983t1000,81.7998t1100,79.7165t1200,77.9483"</SolventStripes>
+          </Definition>
+          <Percent>100</Percent>
+        </SolventDescription>
+      </Channel2ExtendedSolventType>
+    </SolventElement>
+  </SolventComposition>
+  <LowPressureLimit>0</LowPressureLimit>
+  <HighPressureLimit>400</HighPressureLimit>
+  <MaximumFlowRamp>100</MaximumFlowRamp>
+  <FlowRampDown>100</FlowRampDown>
+  <ExpectedMixerType>None</ExpectedMixerType>
+</PumpMethod>
